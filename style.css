@@ -1,3 +1,14 @@
 *{
     box-sizing: border-box;
 }
+.header{
+    width: 100%;
+    max-height: 1931px;
+}
+.header-image{
+    width: 100%;
+    max-height: 1282px;
+    background-image: url("./img/BG-Header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
