@@ -71,3 +71,29 @@
 .header__down{
     margin-top: 5.35em;
 }
+.container{
+    max-width:55%;
+    margin: 0 auto;
+}
+.menu{
+    min-height: 100px;
+}
+.main-menu{
+    width: 55%;
+    max-width: 422px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.57em auto 0;
+}
+.menu__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.07em;
+    color: #3c3c3c;
+    font-weight: 400;
+}
+.menu__link--active{
+    color: #ada074;
+    font-weight: 700;
+}
