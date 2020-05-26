@@ -102,3 +102,58 @@
     color: #ada074;
     font-weight: 700;
 }
+.container{
+    width: 58%;
+    margin: 0 auto;
+    max-height: 485px;
+}
+.about{
+    margin-bottom: 6.78em;
+}
+.wrapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: #000000;
+    font-size: 2.42em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .63em;
+}
+.line{
+    margin-top: 2em;
+}
+.about__description{
+    line-height: 1.84em;
+    margin: 2.64em auto 4.92em;
+    width: 84%;
+    max-height: 66px;
+    text-align: center;
+    color: #868585;
+}
+.about__list{
+    list-style: none;
+    display: flex;
+}
+.about__item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about__image{
+    margin-bottom: 2.92em;
+}
+.about__header{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 1.57em;
+    font-weight: 400;
+    /* letter-spacing: .09em; */
+}
+.about__text{
+    color: #868585;
+    margin-top: 2em;
+    text-align: center;
+}
