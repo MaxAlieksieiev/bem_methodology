@@ -19,7 +19,7 @@
     background-position: center;
 }
 .wrapper{
-    max-width:55%;
+    width:1100px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -80,14 +80,13 @@
     min-height: 100px;
 }
 .main-menu{
-    width: 55%;
-    max-width: 422px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 1.57em auto 0;
+    padding: 1.57em 1.78em 0;
 }
 .menu__link{
+    margin-left:3.21em;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.07em;
