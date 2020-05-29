@@ -94,10 +94,13 @@
     text-decoration: none;
     padding-top: 1.57em;
     padding-bottom: 1.71em;
-    margin-left: 3em;
+    margin-right: 3em;
     font-size: 1.07em;
     font-weight: 400;
     text-transform: uppercase;
+}
+.menu__link:last-child{
+    margin-right: 0;
 }
 .menu__link--active{
     color: #ada074;
@@ -106,4 +109,40 @@
 .menu__link:hover{
     color: #ada074;
     font-weight: 700;
+}
+.about{
+    /* max-width: 823px; */
+    padding: 6.42em 11.4em 6.78em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.42em;
+}
+.about_title{
+    letter-spacing: 8.95px;
+}
+.line{
+    margin-top: 2.14em 0;
+}
+.about__description{
+    color: #868585;
+    font-weight: 300;
+    line-height: 1.84em;
+    text-align: center;
+}
+.about__list{
+    margin-top: 7.21em;
+    list-style: none;
+    display: flex;
+}
+.about__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
