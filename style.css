@@ -26,6 +26,7 @@
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
+    min-width: 360px;
 }
 .content{
     display:flex;
@@ -86,14 +87,16 @@
 .main-menu{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    /* align-items: center; */
+    padding-left: 11.4em;
+    padding-right: 7.85em;
+    padding-top: 1.57em;
+    padding-bottom: 1.71em;
 }
 .menu__link{
     color: #3c3c3c;
     text-decoration: none;
-    padding-top: 1.57em;
-    padding-bottom: 1.71em;
+    
     margin-right: 3em;
     font-size: 1.07em;
     font-weight: 400;
@@ -145,4 +148,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 320px) and (max-width:576px) { 
+
+    ::root{
+        font-size: 8px;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
