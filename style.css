@@ -70,12 +70,13 @@
     font-size: 1.14em;
     min-width: 182px;
     min-height: 47px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-decoration: none;
 }
 .header__button{
     border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header__down{
     margin-top:4em;
@@ -181,7 +182,7 @@
 }
 .portfolio__title{
     text-align:center;
-    padding-top: 3.72em;
+    padding-top: 1.72em;
     letter-spacing: 5.43px;
 }
 .portfolio__line{
@@ -235,10 +236,12 @@
     padding-right: 0;
 }
 .portfolio-button{
-    text-decoration: none;
-    border: 1px solid #969696;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 40% 4.42em;
     color: #969696;
-    margin-bottom: 4.42em;
+    border: 1px solid #969696;
 }
 .partners{
     background-image: url('./img/partners.jpg');
