@@ -133,6 +133,7 @@
 }
 .line{
     margin-top: 2.14em 0;
+    text-align: center;
 }
 .about__description{
     color: #868585;
@@ -276,4 +277,69 @@
 }
 .partners__item:last-child{
     margin-right: 0;
+}
+
+.contact__title{
+    text-align: center;
+    padding-top: 6em;
+    letter-spacing: 5.39px;
+}
+.contact__center{
+    max-width: 718px;
+    margin: 4em auto 3.5em;
+    display: flex;
+}
+.contact__left-column{
+    max-width: 385px;
+    margin-right: 5.1em;
+    
+}
+.contact__right-column{
+    max-width: 254px;
+}
+.contact-label{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.84px;
+    margin-bottom: 1em;
+    /* display: block; */
+}
+.contact__form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+.contact__form-name{
+    margin-right: 3.8em;
+    margin-bottom: 2em;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+}
+.contact__name, .contact__email{
+    border-top: 1px solid #000000;
+    background-color: #f8f7f7;
+    width: 161px;
+    height: 35px;
+}
+.contact__form-message{
+    width: 100%;
+}
+.contact__message{
+    border-top: 1px solid #000000;
+    background-color: #f8f7f7;
+    width:100%;
+    height: 120px;
+}
+.send{
+    margin-top: 2em;
+    background-color: #ffffff;
+    border: none;
+    margin-right: 0;
+    margin-left: auto;
 }
