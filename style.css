@@ -245,6 +245,7 @@
     max-height: 394px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .partners__wrapper{
     display: flex;
@@ -253,7 +254,7 @@
     flex-direction: column;
 }
 .partners__title{
-    color: #ffffff;
+    color: rgba(255, 255, 255, .5);
     font-size: 2.14em;
     text-transform: uppercase;
     padding-top: 1.1em;
@@ -264,7 +265,12 @@
     list-style: none;
     max-width: 584px;
     padding: 0;
-    margin: 0;
-    display: flex;
-    
+    margin: 0 auto;
+    display: flex;    
+}
+.partners__item{
+    margin-right: 7.78em;
+}
+.partners__item:last-child{
+    margin-right: 0;
 }
