@@ -268,7 +268,7 @@
     list-style: none;
     max-width: 584px;
     padding: 0;
-    margin: 0 auto;
+    margin: 0 auto 7.14em;
     display: flex;    
 }
 .partners__item{
