@@ -309,7 +309,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    position: relative;
+    margin-bottom: 6em;
 }
 .contact__form-name{
     margin-right: 3.8em;
@@ -376,4 +376,32 @@ input, textarea {
 .contact__email-adress{
     font-weight: 700;
     padding-left:0.3em;
+}
+.footer{
+    background-color: #3c3c3c;
+    color: #a4a4a4;
+}
+.footer__logo{
+    margin: 1.56em 0;
+}
+.footer__links{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    max-width: 260px;
+}
+.footer__link{
+    text-decoration: none;
+    color: #a4a4a4;
+    margin-right: 1.42em;
+}
+.footer__link:last-child{
+    margin-right: 0;
+}
+.footer__item{
+    display: block;
+}
+.footer__text{
+    margin: 1em 0 3.28em;
 }
